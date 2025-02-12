@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1300px;
+    height: 80vh;
+    background: #1e1e1e;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    align-items: center;
+}
+
+.info {
+    flex: 1;
+    padding: 30px;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+.profile {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.title {
+    color: cyan;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.contact, .skills {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+a {
+    color: cyan;
+    text-decoration: none;
+}
